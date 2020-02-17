@@ -4,7 +4,7 @@ const multer = require('multer') // v1.0.5
 const upload = multer() // for parsing multipart/form-data
 var cache = require('lru-node-cache')
 var cors = require('cors')
-const PORT = 80
+const PORT = 8088
 
 let mcache = new cache.LRU(7000);
 
